@@ -1,0 +1,8 @@
+﻿services:
+  brusnikapay:
+    image: brusnikapay
+    build:
+      context: .
+      dockerfile: BrusnikaPay/Dockerfile
+    ports:
+      - "5000:8080"
